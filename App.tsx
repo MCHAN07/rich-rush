@@ -58,16 +58,16 @@ function App() {
 
     // Varied news pool
     const events = [
-      { text: "Karyawan merasa produktivitas meningkat di lingkungan kerja yang nyaman.", type: 'positive', cond: statsRef.current.population > 20 },
+      { text: "Penduduk merasa produktivitas meningkat di lingkungan yang nyaman.", type: 'positive', cond: statsRef.current.population > 20 },
       { text: "Aset bisnis baru saja mengalami kenaikan nilai pasar yang signifikan.", type: 'positive', cond: statsRef.current.money > 1000 },
       { text: "Laporan harian: Penggunaan energi operasional berada di level efisien.", type: 'positive', cond: true },
-      { text: "Beberapa karyawan mengeluhkan jarak tempuh antar aset yang jauh.", type: 'negative', cond: statsRef.current.population > 50 },
+      { text: "Beberapa penduduk mengeluhkan jarak tempuh antar aset yang jauh.", type: 'negative', cond: statsRef.current.population > 50 },
       { text: "Isu: Biaya pemeliharaan infrastruktur dasar mulai meningkat.", type: 'negative', cond: statsRef.current.day > 10 },
       { text: "Headline: Anda dinobatkan sebagai pengusaha muda paling agresif tahun ini.", type: 'positive', cond: statsRef.current.population > 100 },
       { text: "Kabar Pasar: Sektor retail sedang mengalami masa kejayaan.", type: 'neutral', cond: true },
       { text: "Rumor: Investor asing mulai melirik portofolio aset Anda.", type: 'neutral', cond: statsRef.current.money > 5000 },
-      { text: "Data: Jumlah SDM yang bergabung dengan perusahaan Anda terus bertambah.", type: 'positive', cond: true },
-      { text: "Warning: Kapasitas hunian karyawan mendekati ambang batas.", type: 'negative', cond: statsRef.current.population > 0 },
+      { text: "Data: Jumlah SDM yang bergabung di kota Anda terus bertambah.", type: 'positive', cond: true },
+      { text: "Warning: Kapasitas hunian penduduk mendekati ambang batas.", type: 'negative', cond: statsRef.current.population > 0 },
     ].filter(e => e.cond);
 
     const randomEvent = events[Math.floor(Math.random() * events.length)];

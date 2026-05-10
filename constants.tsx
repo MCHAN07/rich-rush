@@ -24,7 +24,7 @@ export const BUILDINGS: Record<BuildingType, BuildingConfig> = {
   [BuildingType.Road]: {
     type: BuildingType.Road,
     cost: 20,
-    name: 'Akses Jalan',
+    name: 'Jalan',
     description: 'Infrastruktur dasar bisnis.',
     color: '#475569', 
     popGen: 0,
@@ -120,7 +120,7 @@ export const BUILDINGS: Record<BuildingType, BuildingConfig> = {
   [BuildingType.Kost]: {
     type: BuildingType.Kost,
     cost: 100,
-    name: 'Kost 10 Pintu',
+    name: 'Kost',
     description: '+10 Kapasitas SDM.',
     color: '#fb923c',
     popGen: 10,
