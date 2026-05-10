@@ -33,7 +33,7 @@ export const BUILDINGS: Record<BuildingType, BuildingConfig> = {
   [BuildingType.Residential]: {
     type: BuildingType.Residential,
     cost: 150,
-    name: 'Rumah Kontrakan',
+    name: 'Rumah Sewa',
     description: '+10 Kapasitas SDM',
     color: '#f87171', 
     popGen: 10,
@@ -69,7 +69,7 @@ export const BUILDINGS: Record<BuildingType, BuildingConfig> = {
   [BuildingType.Mosque]: {
     type: BuildingType.Mosque,
     cost: 750,
-    name: 'Fasilitas Umum',
+    name: 'Tempat Ibadah',
     description: 'Meningkatkan kenyamanan.',
     color: '#10b981', 
     popGen: 5,
@@ -120,7 +120,7 @@ export const BUILDINGS: Record<BuildingType, BuildingConfig> = {
   [BuildingType.Kost]: {
     type: BuildingType.Kost,
     cost: 100,
-    name: 'Kos Kerja',
+    name: 'Kost 10 Pintu',
     description: '+10 Kapasitas SDM.',
     color: '#fb923c',
     popGen: 10,
@@ -129,7 +129,7 @@ export const BUILDINGS: Record<BuildingType, BuildingConfig> = {
   [BuildingType.Laundry]: {
     type: BuildingType.Laundry,
     cost: 150,
-    name: 'Laundry Kiloan',
+    name: 'Laundry Pakaian',
     description: '+$20 Profit Harian.',
     color: '#38bdf8',
     popGen: 0,
@@ -147,11 +147,11 @@ export const BUILDINGS: Record<BuildingType, BuildingConfig> = {
   [BuildingType.Bengkel]: {
     type: BuildingType.Bengkel,
     cost: 250,
-    name: 'Bengkel Servis',
+    name: 'Bengkel Otomotif',
     description: '+$35 Profit Harian.',
     color: '#475569',
     popGen: 0,
-    incomeGen: 35,
+    incomeGen: 15,
   },
   [BuildingType.WarungMakan]: {
     type: BuildingType.WarungMakan,
@@ -165,11 +165,11 @@ export const BUILDINGS: Record<BuildingType, BuildingConfig> = {
   [BuildingType.Sekolah]: {
     type: BuildingType.Sekolah,
     cost: 1000,
-    name: 'Sekolah Bisnis',
+    name: 'Sekolah',
     description: 'Pusat pelatihan SDM. 1x1.',
     color: '#3b82f6',
     popGen: 20,
-    incomeGen: 5,
+    incomeGen: 10,
   },
   [BuildingType.Universitas]: {
     type: BuildingType.Universitas,
